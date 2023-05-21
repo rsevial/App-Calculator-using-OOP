@@ -2,6 +2,7 @@
 # User Interface for App Calculator
 
 # Create a class named UserInterface
+class UserInterface:
 # Define constructor of UserInterface
 # Define function to greet the user 
 # Define function to display the main menu of the Calculator
