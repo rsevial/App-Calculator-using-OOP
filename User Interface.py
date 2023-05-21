@@ -8,5 +8,6 @@
 # Define function that will ask the user which operation to use from number 1 to 4
 # Define function to check if the chosen operator is existing from 1 to 4
 # Define function that will ask the user to input two numbers
+# Define function to execute the chosen operator
 # Define function to print the output
 # Define function to ask the user if he/she wants to retry
