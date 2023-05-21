@@ -19,4 +19,7 @@ class Calculator:
 # return product
         return product
 # Define function to divide two inputted numbers
+    def divide(self, num1, num2):
+        quotient = num1 / num2
 # return quotient
+        return quotient
