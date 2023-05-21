@@ -4,6 +4,10 @@
 # Create a class named UserInterface
 class UserInterface:
 # Define function to greet the user 
+    def greet(self):
+        print("\033[0;33m===========================================")
+        print("\033[0;33m             " + "\033[0;33m\033[1mSIMPLE CALCULATOR\033[0m" + "\033[0;33m             ")
+        print("\033[0;33m===========================================" + "\n")
 # Define function to display the main menu of the Calculator
 # Define function that will ask the user which operation to use from number 1 to 4
 # Define function to check if the chosen operator is existing from 1 to 4
