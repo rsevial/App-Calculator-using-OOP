@@ -3,7 +3,6 @@
 
 # Create a class named UserInterface
 class UserInterface:
-# Define constructor of UserInterface
 # Define function to greet the user 
 # Define function to display the main menu of the Calculator
 # Define function that will ask the user which operation to use from number 1 to 4
