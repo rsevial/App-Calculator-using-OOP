@@ -9,7 +9,10 @@ class Calculator:
 # return sum
         return sum
 # Define function to subtract two inputted numbers
+    def subtract(self, num1, num2):
+        difference = num1 - num2
 # return difference
+        return difference
 # Define function to multiply two inputted numbers
 # return product
 # Define function to divide two inputted numbers
