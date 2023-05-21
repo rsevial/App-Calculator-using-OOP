@@ -11,8 +11,8 @@ from class_for_errors import Error
 calcu = Calculator()
 ui = UserInterface()
 error = Error()
-
 # Start
 # Display the greetings of Calculator
+ui.greet()
 # Display the four operators of Calculator
 # 
