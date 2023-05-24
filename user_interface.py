@@ -49,4 +49,3 @@ class UserInterface:
             return False 
         else:
             print("\n\033[31mInvalid input!")
-            return True
