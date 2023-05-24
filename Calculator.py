@@ -57,6 +57,7 @@ while True:
 
 # Elif statement that will ask the user again if he/she wants to retry
 # If the user want to retry
+    if ui.retry():
     # Display Operations
 # Elif the user want to end
     # break
