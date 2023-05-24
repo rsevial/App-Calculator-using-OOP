@@ -48,7 +48,7 @@ while True:
     elif operation == 4:
         try:
             quotient = calcu.divide(num1, num2)
-            ui.print_quotient(product)
+            ui.print_quotient(quotient)
         # except if the num2 == 0: use except ZeroDivisionError
         except ZeroDivisionError:
             error.zero_division_error()
@@ -63,4 +63,4 @@ while True:
 # Elif the user want to end
     # break
 # Else:
-    # print Error  
+    # print Error   

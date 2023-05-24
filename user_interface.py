@@ -44,8 +44,9 @@ class UserInterface:
         retry =  input("\n\033[35mDo you still want to continue? (y/n): ")
         if retry.lower() == "y":
             return True
+        elif retry.lower() == "n":
+            print("\033[36mThank you!")
+            return False 
         else:
-            return False
-
-
-        
+            print("\n\033[31mInvalid input!")
+            return True
