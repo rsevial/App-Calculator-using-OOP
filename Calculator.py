@@ -61,5 +61,6 @@ while True:
         break
     # else: diplay operations and continue
     else:
+        ui.retry()
         ui.display_operations()
         continue  
