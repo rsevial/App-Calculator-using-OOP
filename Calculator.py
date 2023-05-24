@@ -53,4 +53,12 @@ while True:
         except ZeroDivisionError:
             error.zero_division_error()
     else:
-        error.invalid_error()                
+        error.invalid_error()
+
+# Elif statement that will ask the user again if he/she wants to retry
+# If the user want to retry
+    # Display Operations
+# Elif the user want to end
+    # break
+# Else:
+    # print Error  
