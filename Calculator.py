@@ -59,6 +59,7 @@ while True:
 # If the user want to retry
     if ui.retry():
     # Display Operations
+       ui.display_operations()
 # Elif the user want to end
     # break
 # Else:
