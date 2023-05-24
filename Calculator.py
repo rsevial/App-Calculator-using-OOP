@@ -23,29 +23,30 @@ while True:
         operation = ui.ask_operator()
     except(ValueError, TypeError):
         error.value_and_type_error()
+        continue
     # Add condition to check if the user inputted valid numbers
     # If operation <= 4: ask user for num1 and num2
     # Use try and except function if the user inputted invalid numbers
-    if ui.ask_operator() <= 4:
+    if operation <= 4:
         try:
             num1 = ui.ask_number1()
             num2 = ui.ask_number2()
         except(ValueError, TypeError):
             error.value_and_type_error() 
     # print sum if the user choose 1
-    if ui.ask_operator() == 1:
+    if operation == 1:
         sum = calcu.add(num1,num2)
         ui.print_sum(sum)
     # print difference if the user choose 2
-    elif ui.ask_operator() == 2:
+    elif operation == 2:
         difference = calcu.subtract(num1, num2)
         ui.print_difference(difference)
     # print product if the user choose 3
-    elif ui.ask_operator() == 3:
+    elif operation == 3:
         product = calcu.multiply(num1, num2)
         ui.print_product(product)
     # print quotient if the user choose 4
-    elif ui.ask_operator() == 4:
+    elif operation == 4:
         try:
             quotient = calcu.divide(num1, num2)
             ui.print_quotient(quotient)
@@ -60,6 +61,7 @@ while True:
     if not ui.retry():
         break
     # else: diplay operations and continue
-    else: 
+    else:
+        ui.retry
         ui.display_operations()
         continue  
