@@ -56,11 +56,10 @@ while True:
         error.invalid_error()
 
 # Elif statement that will ask the user again if he/she wants to retry
-# If the user want to retry
-    if ui.retry():
-    # Display Operations
-       ui.display_operations()
-# Elif the user want to end
-    # break
-# Else:
-    # print Error   
+    # If not ui.retry: break
+    if not ui.retry():
+        break
+    # else: diplay operations and continue
+    else:
+        ui.display_operations()
+        continue  
