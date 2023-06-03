@@ -7,6 +7,9 @@ from class_calculator import Calculator
 from user_interface import UserInterface
 # Import the Error class of class_from_errors file
 from class_for_errors import Error
+# Import the NewUserInterface of new_class file
+from new_class import NewUserInterface
+
 # Create object for the three class
 calcu = Calculator()
 ui = UserInterface()
