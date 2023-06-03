@@ -2,6 +2,7 @@
 # Create a new class that inherits from existing class in your calculator program
 
 # import a class from two files
+from user_interface import UserInterface
 # create class from the imported class
 # add new methods 
 # override an existing methods
