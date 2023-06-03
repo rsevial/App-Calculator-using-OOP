@@ -63,6 +63,7 @@ while True:
 # Elif statement that will ask the user again if he/she wants to retry
     # If not ui.retry: break
     if not new_ui.retry():
+        new_ui.greetings
         break
     # else: diplay operations and continue
     else:
