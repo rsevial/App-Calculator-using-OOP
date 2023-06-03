@@ -14,6 +14,7 @@ from new_class import NewUserInterface
 calcu = Calculator()
 ui = UserInterface()
 error = Error()
+new_ui = NewUserInterface()
 # Start
 # Display the greetings to the user
 ui.greet()
@@ -62,6 +63,7 @@ while True:
 # Elif statement that will ask the user again if he/she wants to retry
     # If not ui.retry: break
     if not ui.retry():
+
         break
     # else: diplay operations and continue
     else:
