@@ -5,6 +5,7 @@
 from user_interface import UserInterface
 # create new class from the imported class
 class NewUserInterface(UserInterface):
-    pass
-# add new methods 
+# add new methods
+    def greetings(self):
+        print("Thank you for using the calculator!")
 # override an existing methods
