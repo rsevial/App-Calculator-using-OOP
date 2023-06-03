@@ -9,3 +9,11 @@ class NewUserInterface(UserInterface):
     def greetings(self):
         print("Thank you for using the calculator!")
 # override an existing methods
+    def retry(self):
+        retry =  input("\n\033[35mDo you still want to continue? (y/n): ")
+        if retry.lower() == "y":
+            return True
+        elif retry.lower() == "n":
+            return False 
+        else:
+            print("\n\033[31mInvalid input!")
